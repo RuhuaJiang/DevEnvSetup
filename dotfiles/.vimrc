@@ -14,9 +14,19 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
+" Code Completion 
 Plugin 'Valloric/YouCompleteMe'
 
+" Surround 
+" https://www.youtube.com/watch?v=5HF4jSyPpvs
+Plugin 'tpope/vim-surround'
+
+" Support snippets
+Plugin 'Shougo/neosnippet'
+Plugin 'Shougo/neosnippet-snippets'
+
 " Python Related 
+Plugin 'klen/python-mode'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} 
@@ -30,11 +40,18 @@ Plugin 'scrooloose/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
 filetype plugin indent on    " required
 
 "YouCompleteMe 
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+" Snippets
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+
 
 "nerdtree
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
