@@ -25,7 +25,7 @@ cp $DOCFILES_ROOT/.vimrc ~/.vimrc
 vim +PluginInstall +qall
 #install YouCompleteMe
 sudo apt-get install -y python-dev
-if [ ! -f YouCompleteMeDone ];then
+if [ ! -f /tmp/YouCompleteMeDone ];then
    python ~/.vim/bundle/YouCompleteMe/install.py
 fi 
 touch "/tmp/YouCompleteMeDone"
