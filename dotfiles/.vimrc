@@ -25,6 +25,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
 
+" Super tab
+Plugin 'ervandew/supertab' 
+
 " Python Related 
 Plugin 'klen/python-mode'
 Plugin 'vim-scripts/indentpython.vim'
