@@ -36,7 +36,8 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'altercation/vim-colors-solarized'
 "syntax highlighting 
 Plugin 'scrooloose/syntastic'
-
+"Pair bracets 
+Plugin 'jiangmiao/auto-pairs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -86,3 +87,8 @@ set fileformat=unix
 set encoding=utf-8
 "line number 
 set nu
+set backspace=indent,eol,start
+
+
+"Key remap
+imap jj <Esc>
