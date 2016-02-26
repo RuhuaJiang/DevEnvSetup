@@ -29,6 +29,8 @@ Plugin 'Shougo/neosnippet-snippets'
 Plugin 'ervandew/supertab' 
 " Go  Programming related
 Plugin 'fatih/vim-go'
+"XML plugin
+Plugin 'sukima/xmledit'
 
 " Python Related 
 Plugin 'klen/python-mode'
