@@ -46,6 +46,9 @@ Plugin 'scrooloose/syntastic'
 "Pair bracets 
 Plugin 'jiangmiao/auto-pairs'
 
+" Perl related 
+Plugin 'vim-perl/vim-perl'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
