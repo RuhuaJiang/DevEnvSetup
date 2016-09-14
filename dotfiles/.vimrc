@@ -49,6 +49,11 @@ Plugin 'jiangmiao/auto-pairs'
 " Perl related 
 Plugin 'vim-perl/vim-perl'
 
+"= Java Related Start ========
+Plugin 'artur-shaik/vim-javacomplete2'
+
+"= Java Related End ==========
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
