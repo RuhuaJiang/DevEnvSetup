@@ -29,3 +29,8 @@ if [ ! -f /tmp/YouCompleteMeDone ];then
    python ~/.vim/bundle/YouCompleteMe/install.py
 fi 
 touch "/tmp/YouCompleteMeDone"
+
+#install minibufexpl.vim
+git clone https://github.com/fholgado/minibufexpl.vim.git 
+mkdir -p ~/.vim/plugin/
+cp  minibufexpl.vim/plugin/minibufexpl.vim  ~/.vim/plugin/
