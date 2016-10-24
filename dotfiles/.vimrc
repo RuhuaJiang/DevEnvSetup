@@ -53,6 +53,10 @@ Plugin 'vim-perl/vim-perl'
 Plugin 'c.vim'
 
 " autoformat 
+" Make sure install correspoding formating tools first. 
+" e.g 
+" for python: pip install --upgrade autopep8
+" for perl: It can be installed from CPAN cpanm Perl::Tidy
 Plugin 'Chiel92/vim-autoformat'
 
 " All of your Plugins must be added before the following line
