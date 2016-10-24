@@ -34,3 +34,8 @@ touch "/tmp/YouCompleteMeDone"
 git clone https://github.com/fholgado/minibufexpl.vim.git 
 mkdir -p ~/.vim/plugin/
 cp  minibufexpl.vim/plugin/minibufexpl.vim  ~/.vim/plugin/
+
+#install tag list 
+git clone https://github.com/vim-scripts/taglist.vim.git
+mkdir -p ~/.vim/plugin/
+cp taglist.vim/plugin/taglist.vim  ~/.vim/plugin/
