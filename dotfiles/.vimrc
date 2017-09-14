@@ -52,6 +52,9 @@ Plugin 'vim-perl/vim-perl'
 " C/C++
 Plugin 'c.vim'
 
+" Scala support 
+Plugin 'derekwyatt/vim-scala'
+
 " autoformat 
 " Make sure install correspoding formating tools first. 
 " e.g 
