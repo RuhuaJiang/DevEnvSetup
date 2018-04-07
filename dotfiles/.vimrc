@@ -36,7 +36,6 @@ Plugin 'sukima/xmledit'
 Plugin 'klen/python-mode'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} 
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 "color scheme 
