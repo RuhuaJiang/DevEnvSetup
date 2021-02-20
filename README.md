@@ -7,6 +7,14 @@ cd DevEnvSetup/setup
 ./linux-dev-setup.sh
 ```
 
+
+On mac if seeing problem
+https://stackoverflow.com/questions/62328067/how-to-correctly-install-youcompleteme-on-mac
+
+```
+brew install macvim
+```
+
 it will setup all the nice plugins and configurations such YouCompleteMe, ultisnips, syntastic and many more.  See complete list in DevEnvSetup/dotfiles/.vimrc 
 
 

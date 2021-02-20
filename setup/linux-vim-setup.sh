@@ -26,7 +26,7 @@ vim +PluginInstall +qall
 #install YouCompleteMe
 sudo apt-get install -y python-dev
 if [ ! -f /tmp/YouCompleteMeDone ];then
-   python ~/.vim/bundle/YouCompleteMe/install.py
+   python3 ~/.vim/bundle/YouCompleteMe/install.py
 fi 
 touch "/tmp/YouCompleteMeDone"
 
